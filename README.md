@@ -1,6 +1,8 @@
 CatLog
 =========
-Graphical log reader for Android.
+Graphical log reader for Android.  
+
+This is a buildable project version.
 
 Author
 --------

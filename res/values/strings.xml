@@ -86,6 +86,12 @@
     <string name="dialog_loading_updates">Loading updates…</string>
     <string name="dialog_partial_select_explanation">1. Select the <b>first</b> line.\n2. Then select the <b>last</b> line.</string>
     <string name="dialog_please_wait">Please wait</string>
+
+    <string name="dummy_pid_text">6177</string>
+    <string name="dummy_timestamp_text">12 June 2011</string>
+    <string name="dummy_tag_text">SomeActivity</string>
+    <string name="dummy_log_level_text">D</string>
+    <string name="dummy_log_output_text">Blah blah blah a bunch of output</string>
     
     <string name="enter_filename">Enter filename to save:</string>
     <string name="enter_good_filename">Please enter a valid filename.</string>
