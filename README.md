@@ -2,7 +2,15 @@ CatLog
 =========
 Graphical log reader for Android.  
 
-This is a buildable project version.
+This is a buildable project version.  
+
+Adding to Android build
+-----------------------
+* Include this project you default or local manifest  
+* Add "Catlog" to PRODUCT_PACKAGES definition.  Typically this is under:  
+<pre>vender/*/config/packages.mk</pre>
+* You may need to have the package signed with the ROM.  To do this, add "Catlog" to PRODUCT_PACKAGES definition in:
+<pre>build/target/product/core.mk</pre>
 
 Author
 --------
