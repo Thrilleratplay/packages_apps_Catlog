@@ -15,11 +15,14 @@
 #
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+
+# Build all java files in the java subdirectory
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
+
 LOCAL_PACKAGE_NAME := Catlog
-LOCAL_MODULE_PATH := system/app
 LOCAL_CERTIFICATE := platform
-LOCAL_UNINSTALLABLE_MODULE := true
-LOCAL_PRIVILEGED_MODULE := true
+
 include $(BUILD_PACKAGE)
 
+# Use the folloing include to make our test app
+include $(call all-makefiles-under,$(LOCAL_PATH))
